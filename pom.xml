@@ -37,7 +37,7 @@
       <username>nkiran284</username>
       <password>Sashikiran125#</password>
       <applicationName>app-cicdJenkinsCloud</applicationName>
-      <environment>SANDBOX</environment>
+      <environment>Sandbox</environment>
       <!-- <region>${region}</region>  -->
       <workers>1</workers>
       <workerType>Micro</workerType>
