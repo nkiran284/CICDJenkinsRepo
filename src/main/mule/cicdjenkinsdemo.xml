@@ -10,5 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="cicdjenkinsdemoFlow" doc:id="d7fefea9-4d41-4eb2-b5b2-f53f7583539c" >
 		<http:listener doc:name="Listener" doc:id="79acc80b-7e83-4bda-b848-8e6c4dbe98c8" config-ref="HTTP_Listener_config" path="/cicdJenkins"/>
 		<set-payload value="CICD Jenkins Maven Test change1" doc:name="Set Payload" doc:id="f7439cf7-89dc-48c1-bfda-c62d465f5b48" />
+		<logger level="INFO" doc:name="Logger1" doc:id="6389b4d2-c7f6-464d-9ea2-4b992ed79f62" message="cicd logger"/>
+		<set-payload value="payload2" doc:name="Set Payload" doc:id="0041ae82-8d76-4fac-9c5c-e22927632dca" />
 	</flow>
 </mule>
